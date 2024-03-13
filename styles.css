@@ -5,6 +5,7 @@
     --brand-colors-bright-blue: #3882F6;
     --brand-colors-grey: #E5E7EB;
     --brand-colors-cream: #F9FAF8;
+
 }
 
 
@@ -47,7 +48,7 @@ body {
 }
 
 .hero, .hero ~ div, .header {
-    padding: 0 175px;
+    padding: 0 250px;
 }
 h1 {
     font-size: 48px;
@@ -93,7 +94,7 @@ h1 {
 }
 
 .hero-content {
-    padding-right: 125px;
+    padding-right: 75px;
 }
 
 .hero-text {
@@ -109,17 +110,25 @@ h1 {
 
 .wrapper {
     display: flex;
-    align-items: center;
-    gap: 40px;
+    justify-content: center;
+    gap: 60px;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .info {
-    max-width: 100px;
+    max-width: 150px;
+    padding-bottom: 100px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 8px;
 }
 
 .container-two {
@@ -129,10 +138,20 @@ h1 {
     background-color: var(--brand-colors-grey, gray);
 }
 
-.quote {
+div.quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    padding: 100px 100px;
+}
+
+.author {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+    text-align: right;
 }
 
 .container-three {
@@ -147,12 +166,14 @@ h1 {
     justify-content: space-between;
     flex: 1;
     border-radius: 5px;
-    margin: 50px 0;
+    margin: 100px 0;
+    padding: 40px 100px;
 }
 
 .cta-title {
     font-weight: bold;
 }
+
 
 .footer {
     display: flex;
@@ -181,14 +202,14 @@ button {
 .hero-img {
     flex-shrink: 0;
     height: 250px;
-    width: 550px;
+    width: 450px;
     background-color: var(--brand-colors-grey, gray);
 }
 
 /* info placeholder */
 .img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 3px solid var(--brand-colors-bright-blue, navy);
     border-radius: 10px;
 }
