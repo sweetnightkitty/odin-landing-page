@@ -17,12 +17,12 @@
     background-color: var(--brand-colors-bright-blue, blue);
 }
 
-/* Branding-Fonts*/
-.header-logo, h1, .cta-title, .footer, button {
+/* Branding-Font Colors*/
+.header-logo, h1, .cta, .footer, button {
     color: var(--brand-colors-cream, white);
 }
 
-.hero-text, a, .cta-text {
+.hero-text, a {
     color: var(--brand-colors-grey, gray);
 }
 
@@ -46,9 +46,17 @@ body {
     min-height: 100%;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
 }
 
 
@@ -66,6 +74,10 @@ body {
     flex: 1;
 }
 
+.hero-text, .header-links, .cta-title, .info {
+    font-size: 18px;
+}
+
 .container-one {
     display: flex;
     flex-direction: column;
@@ -80,6 +92,10 @@ body {
     gap: 40px;
 }
 
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
 
 .info {
     max-width: 100px;
@@ -92,6 +108,11 @@ body {
     background-color: var(--brand-colors-grey, gray);
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
 .container-three {
     display: flex;
@@ -106,6 +127,9 @@ body {
     justify-content: space-between;
 }
 
+.cta-title {
+    font-weight: bold;
+}
 
 .footer {
     display: flex;
