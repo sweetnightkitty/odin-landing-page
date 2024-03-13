@@ -52,7 +52,6 @@ body {
 }
 
 
-
 .content {
     display: flex;
     flex-direction: column;
@@ -62,6 +61,7 @@ body {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     flex: 1;
 }
@@ -125,4 +125,20 @@ a:hover {
 button {
     border: 0;
     border-radius: 5px;
+}
+
+
+/* Hero placeholder */
+.hero-img {
+    height: 150px;
+    width: 300px;
+    background-color: var(--brand-colors-grey, gray);
+}
+
+/* info placeholder */
+.img {
+    height: 100px;
+    width: 100px;
+    border: 3px solid var(--brand-colors-bright-blue, navy);
+    border-radius: 10px;
 }
