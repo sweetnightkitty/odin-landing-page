@@ -70,7 +70,7 @@ h1 {
 
 .header-links {
     display: flex;
-    gap: 40px;
+    gap: 4rem;
 }
 
 .content {
@@ -187,9 +187,11 @@ a {
     text-decoration: none;
 }
 
+
 a:hover {
     font-weight: bold;
 }
+
 
 button {
     border: 0;
