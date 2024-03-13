@@ -15,17 +15,13 @@ body {
 
 .header {
     display: flex;
-    flex-direction: column;
-}
-
-.nav {
-    display: flex;
     justify-content: space-between;
 }
 
 .hero {
     display: flex;
     align-items: center;
+    flex: 1;
 }
 
 .content {
